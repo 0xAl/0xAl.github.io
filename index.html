@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <title>Floup</title>
+</head>
+<body>
+    <div id="pantalla">
+        <div id="fondo">
+            <div id="vidas">
+                <div class="cuadrado" id="suciedad"></div>
+                <div class="cuadrado" id="agua"></div>
+                <div class="cuadrado" id="fertilizante"></div>
+            </div> 
+            <div id ="flor">
+                <img src="" id="flotante" draggable="false" style="position: absolute; display: none;" height="190px" width="190px"></img>
+                <img id="flor-img" draggable="false" src="img/flor-sana.png" height="500px" width="500px">
+            </div>
+            <div id="botones">
+                <button id="regar">Regar planta</button>
+                <button id="fertilizar">Fertilizante</button>
+                <button id="limpiar">Insecticida</button>
+            </div>
+            <div id="mensajes">
+                <p>Experiencia: <span id="exp"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

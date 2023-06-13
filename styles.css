@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+#flotante {
+    position: relative;
+    display: none;
+}
+
+#pantalla {
+ background-color: gainsboro;
+ background-image: url("img/ventana.png");
+ background-position: center;
+ /* background-repeat: no-repeat; */
+ background-size: auto;
+ width: 700px;
+ aspect-ratio: 1 / 1;
+ /* cursor: url("img/regadera.png"), pointer; */
+}
+
+#botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+}
+
+#fondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+#vidas {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#flor {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cuadrado
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: solid 3px black;
+    /* position:relative; */
+    background-color: green;
+}
+
+/* .cuadrado::after{
+    content:'\A';
+    position:absolute;
+    background:green;
+    right:0; bottom:0;
+    left:0; 
+    height:100%;
+} */
